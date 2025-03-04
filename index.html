@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <p> this is a paragraph </p>
+<hr />
+      
+</body>
+</html>
+
+<!--  HTML tag is a container for some constent or other HTML tags -->
+<!--  paragraph should start with <p> and should close with </p> -->
+
+<!-- 
+         *** Understanding all the contents in HTML page ****
+
+
+
+<!DOCTYPE html> // tells browser you are using HTML5
+<html >  // root of an html document, all sub elements comes under this
+<head>  // container for metadata, head tell all the documents for html tag that we don't need to be displayed
+    <meta charset="UTF-8"> // meta data is simply data inside data
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // viewport ensure seemless expirence throughout all devices and responsiveness of website
+    <title>My first page</title>
+</head> // so all the part that is above inside the head is important for website but is not visible on website, except title
+<body> //body tag shows all the information that needs to be displayed on our page is placed in body tag    
+      <p> this is a paragraph </p>
+      
+</body>
+</html>
+-->
+
+<!-- this is how comments are done in HTML -->
+<!-- HTML is not case Sensitive -->
+
+
+<!-- 
+there are multiple attributes in HTML such as <HTML lan = "en">
+here lan is attribute which is language
+
+And there are Heading tags which contains multiple heading tags such as, heading tags are used to display headings
+in HTML
+
+h1 (most Important)
+h2  
+h3
+h4
+h5
+h6 (least Important)
+
+All heads form h1 to h6 are used to display headings in HTML, Them importance of heading tag deacreaces in decending
+order form h1 is most important and h6 is least important, The most important headings will be written in h1 
+and least important will be written in h6  
+
+Always only print most important things in  heading 1 and least in heading cause if you print least impotant things 
+on h1 google will pick those thing and focus on it more and if it is not of that importance user will likely skip your 
+website
+
+-->
+
+<!-- Heading tags example -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+<hr />
+    <p>Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph Sample Paragraph</p>
+<hr />
+</body>
+</html>
+
+<!-- 
+                ***Anchor Tags**
+
+=> Used to add links to your page
+
+<a href="https://google.com">Google</a>
+ 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com">Google </a>
+    <br /> <!-- this br tag will break code and introduce a new line to it, so whatever we are printing next it would not apper in same line-->
+<a href="https://www.instagram.com">My Instagram</a>
+
+<br />
+
+<a href="/HelloFolder/Hello.html">Go to Hell oohh</a>
+
+<hr />
+
+</body>
+</html> 
+
+ 
+<!-- there are two type of links absolute link and reletive link, absolute link is like google.com and reletive link is given by us from the system -->
+
+<!-- 
+
+                     Image Tag
+
+Used  to add images to your page
+
+<img scr="/image.png" alt="Random Image">
+ 
+in this img indicated image, src indicated source and we can give bot reletive url and absolute url both
+
+"alt"  gives idea about image suppose we added image of notebook and for some reasons users internet is slow or is not functioning well we can add discription about that imgae in alt so the usser won't missout on any information that maybe valuable to him
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first page</title>
+</head>
+<body>
+    <img src="https://tiimg.tistatic.com/fp/3/008/030/glossy-cover-rectangular-plain-paper-writing-spiral-binding-notebook-for-office-use-183.jpg" alt="NoteBook" height="100" /> 
+
+    <!-- now same image but this time we'll add reletive link and also we can change height and width of image in html but it is not advisable tochange both height and width at same time in html and also it is best if you do it in CSS than HTML -->
+<hr />
+    <img src="image.jpg" alt="NoteBook">
+    <!-- here I've used plain image.jpg not the /image.jpg cause my image was in same folder as of my HTML file whcich is it's root directory, but if my image was in another folder I would have to use
+    /image.jpg -->
+<hr />
+</body>
+</html>
+
+<!-- 
+           BOld, Italic & Underline Tag
+
+Used to higlight text in your page
+
+<b>Bold</b> // for bold text
+
+<i>Italic</i> // for italic text
+
+<u>Underline<u/> // to underline text 
+
+<big><big/> // for big text
+
+<small><small/> // for small text
+
+<hr /> // for horizontal ruler to saprate content
+
+<sub></sub> // for subscript ex. when we write chemistry formula like H2O "2" should be written down so to do that we use subscript
+
+<sup></sup> // for superscript ex. when we write maths formula like X^2 we use super script
+
+<pre></pre> used to display text as it is (without ignoring spaces and next line) so when we use <p></p> tag it will reomve any uneseccary lines and spaces but <pre></pre> tag will let you print those space and lines without ignoring them
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+     <br />
+    <b>BOLD</b>
+    <br />
+    <i>italic</i>
+    <br />
+    <u>underline</u>
+<hr />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+ <P>Sample Paragraph<b>Sample Paragraph</b>Sample Paragraph<i>Sample Paragraph</i> Sample Paragraph<u> Sample Paragraph</u> Sample Paragraph</P> 
+ <!-- u can also write bol, italic and underline as above -->
+
+<big> this text shows big text </big>
+<hr /> <!-- this is horizontal ruller  -->
+<small> THIS TAG SHOWS SAMLL TEXT </small>
+
+<hr />
+<p>H<sub>2</sub>O</p>
+
+<hr />
+<p>3<sup>2 </sup> = 9</p>
+
+<hr />
+
+<p>
+   <b> Example that shows diffrence between pre and p tag</b>
+
+    Lorem ipsum dolor sit amet         consectetur adipisicing elit. 
+    Voluptas ratione doloribus harum   maxime, eveniet nesciunt tempora 
+    
+    
+    perspiciatis facilis placeat? Consectetur inventore saepe
+    
+    earum amet sed! Dolorum aspernatur tempore perspiciatis voluptatem?
+</p> 
+
+<hr />
+
+<pre>
+    <u>Example shows diffrence between pre and p tag</u>
+
+    Lorem ipsum dolor sit amet         consectetur adipisicing elit. 
+    
+    
+    Voluptas ratione doloribus harum   maxime, eveniet nesciunt tempora 
+    
+    
+    perspiciatis facilis placeat? Consectetur inventore saepe
+    
+    earum amet sed! Dolorum aspernatur tempore perspiciatis voluptatem?
+</pre> 
+<!-- first word in above para "lorem" if you type that in vs code it'll print a sample paragraph-->
+
+</body>
+</html>
+
+<!-- 
+
+     **Page layout Techniques**
+
+=> There are two types of tags in HTML sementic tag and non-sementic tags
+
+=> Sementics tags includes headers, footers
+
+=> Non Sementic includes div, span
+
+=> The advantages of using sementic tag is that it makes the code more readable and good user expirnce
+
+=> header includes the things we'll write on top or the first one
+
+=> footers include what will be on the bottom or  last
+
+=> Inside main tag, What are the things taht goes under main tag
+
+1. Section Tag : For a section on your page
+
+<section>
+
+2. Article Tag For an article on your page
+
+<article>
+
+3. Aside Tag For content aside main content(ads)this tag is used to tell google that you don't want this content to be part of your main content
+
+<aside>
+
+*** Anchor Tag 2 ***
+
+<a herf="https://google.com" target="_main">Google</a>
+
+target="_main" will open page in new tab
+
+<a herf="https://google.com"><img scr="link></a>
+<img scr="link"> this will make the link clickable
+
+--------*************** NON SEMENTIC TAG *********-------- 
+
+=> Div Tag
+
+Div is a container used for other HTML elements
+
+Dive is block element (Block element take full width with it no matter if element need samll spaces)
+
+=> Span Tag 
+Span tag is aslo container used for other HTML elements
+
+Span in Inline element (inline elements takes widtths as per there size)
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+    <header>
+        <pre>
+         <p>My Portfolio</p> 
+        </pre>
+    </header>
+<main>
+    <section>Education : College (GECGN) | School (MB patel)</section>
+    <section>Currently no Experince Student</section>
+    <article>my story : I went to an AI/ML workshop at university
+   the session was very intresting and so I got to know about coding and that's how I devoleped intrest in coding </article>
+   <aside>This is an ad</aside>
+   <a href="https://google.com" target="_main">Google</a>
+   <a href="https://google.com" target="_main"><img src="https://lh3.googleusercontent.com/COxitqgJr1sJnIDe8-jiKhxDx1FrYbtRHKJ9z_hELisAlapwE9LUPh6fcXIfb5vwpbMl4xl9H9TRFPc5NOO8Sb3VSgIBrfRYvW6cUA"
+   alt="Google"
+   height="100"
+   width="100"
+    ></a>
+
+    <div>
+        <p>Hello world</p>
+        <p>Namaste</p>
+        <p>Hi</p>
+    </div>
+
+    <div>
+        <p>bye</p>
+        <p>Goodbye</p>
+        <p>Dassvidaniya</p>
+    </div>   
+
+    <span>Guten Abend</span>  <!-- In span as it is a inline tag it won't take as much space as div tag, you can check this in browser by inspecting it you'll see any bye part is highlited in blue not the whole line unline div -->
+
+
+
+</main>
+
+<footer>
+<h5>Contact us at hello@ac.com</h5>
+</footer>
+
+</body> 
+</html>
+
+<!-- 
+
+=> ++++++++ List on inline tag   +++++++++++            
+                                
+<code>
+<output>
+List: Span Tags
+<dfn>
+<q>
+<a>
+Kas
+inline
+<abbr>
+<em>
+<samp>
+<i>
+<script>
+Kimg>
+<acronym>
+<select>
+<b>
+<bdo>
+<input>
+<small>
+<kbd>
+<span>
+<label>
+<big>
+<strong>
+<br>
+<map>
+<sub>
+<button>
+<object>
+<sup>
+<tt>
+<cite>
+<textarea>
+<var>
+<time>
+
+=> ++++++++++ List of Block Elemensts +++++++++++
+
+<address>
+<article>
+<aside>
+<fieldset>
+<nav>
+<figcaption>
+<noscript>
+<figure>
+<ol>
+<footer>
+<blockquote>
+<p>
+<form>
+2
+<canvas>
+<dd>
+<div>/
+<dl>
+<dt>
+<hr>
+<li>
+<main>
+<pre>
+<h1>-<h6>
+<S
+<header>
+
+-->
+
+
+
+<!-- 
+
+NOW WE'LL TALK ABOUT LISTS
+
+There are two types of list
+ 
+1. Orderd list
+
+Ordered list contains numbers also roman numbers to list the items 
+Ordered list have tag <ol></ol> and to list the itemsin Ordered list we use <li></li> tag
+
+2. Unorderd list
+
+Unorderd list contains bullet point whcih may not be as organised as ordered list
+Unorderd list have tag <ul></ul> and to list the item in Unordered list we use <li></li> tag
+
+U can even make discription about lists you can also call it sub list by addding another ul/ol tag and again using li tag in them
+
+=> TABLE TAG <Table></Table>
+
+<tr> used to display table row
+<th> used to display table header, header shown things like NAME, Roll. no
+<td> used to display table data, this is use to display what data you'll enter like Atharva, 210130117026 
+
+=> Table Head & Table Body
+
+Table Head is to wrap up table head
+Table Body is to wrap up table body
+
+=> <th colspan = "n" >
+    ABCD
+</th> this used to write smth in between 2 coloumn and u can even assing it how much space u want it to be in
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Page</title>
+</head>
+<body>
+    <header></header>
+
+    <main>
+
+        <ul>
+            <li>Apple</li>
+             <ul>
+                <li>colour : red</li>
+                <li> Season : winter </li>
+             </ul>
+            <li>Mango</li>
+            <ul>
+                <li>colour : yellow</li>
+                <li> Season : summer </li>
+             </ul>
+            <li>Strawberry</li>
+            <ul>
+                <li>colour : pink</li>
+                <li> Season : winter </li>
+             </ul>
+        </ul>
+
+
+
+
+<!--                   +++++++++++++++       EXAMPLE OF OL    ++++++++++++                                    -->
+
+
+
+
+        <ol>
+            <li>Apple</li>
+             <ul>
+                <li>colour : red</li>
+                <li> Season : winter </li>
+             </ul>
+            <li>Mango</li>
+            <ul>
+                <li>colour : yellow</li>
+                <li> Season : summer </li>
+             </ul>
+            <li>Strawberry</li>
+            <ul>
+                <li>colour : pink</li>
+                <li> Season : winter </li>
+             </ul>
+        </ol>
+
+
+<!-- +++++++++++++++++++++ TABLE ++++++++++++++++++++++++++++++ -->
+
+<table>
+
+<caption>Student Marksheet</caption> 
+       
+    <th colspan="4">
+        information
+    </th>
+   
+<thread>
+
+    <tr>
+       <th>NAME</th>
+       <th>Roll NO</th>
+    </tr>
+
+</thread>
+
+<tbody>
+
+    <tr>
+        <td>Atharva</td>
+        <td>210130017012</td>
+    </tr>
+
+    <tr>
+        <td>Harsh</td>
+        <td>210130017019</td>
+    </tr>
+
+    <tr>
+        <td>Sahil</td>
+        <td>210130017098</td>
+    </tr>
+
+</tbody>
+
+
+   </table>
+
+</br>
+</br>
+</br>
+
+
+    </main>
+<footer></footer>
+    
+</body>
+</html>
+
+<!--
+
+=>>>>> ************ Form in  HTML **************************
+
+Form are used to collect user data in HTML
+
+Eg. : Sign up, log in, contact me etc
+
+<form>
+    form content
+</form>
+
+=>>>>>> Action in form
+
+Action attribute is used to define  what action needs to be performed when a form is submitted
+
+<form action="/action.php" 
+
+=>>>> From Element : Input
+
+<input type="text" placeholder="Enter Name"
+
+placeholder is basicaly a type of box that'll tell you what to put in it and text in it will disappere once you type info that you suppose to fill in it, like a box says type in your username and as soon as you type smth "username" written in it disappers
+
+Type is just what type of input you want to take in it
+
+=> Lables
+
+=> <lablefor="id1">
+    <input type="radio" value="classX" name="class" id="id1">
+</lable>
+
+<lablefor="id2">
+    <input type="radio" value="classXI" name="class" id="id2">
+</lable>
+
+=> When we use radio button it only can select 1 of the 2 options
+
+=>>>>> **** Class & Id *****
+
+<div id="id1" class="group1">
+
+</div>
+
+<div id="id2">class="group1"
+
+</div>
+
+
+=>>>>> *******  CheckBox *********
+
+<lable for = "id1">
+            <input type="checkbox" value="calsX" name="calss" id="id1">
+</lable>
+
+<lable for = "id2">
+                <input type="checkbox" value="calsX" name="calss" id="id1">
+</label>
+
+=>>>>> ********** Select *********
+
+<select name="city" id="city">
+
+    <option value="Delhi"> Delhi </option>
+    <option value="Mumbai"> Delhi </option>
+    <option value="Banglore"> Delhi </option>
+
+</select>
+
+=>>>>> ***** I frame tag ****** 
+
+website inside website
+<iframe src="link"
+
+=>>>>>> ******* Video Tag ********
+<video src="myVid.mp4"> My Video </video>
+Attributes
+- controls
+height
+width
+loop
+autoplay
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Foirst Page</title>
+</head>
+<body>
+    <head></head>
+
+    <main>
+
+        <h4>Registation Form</h4>
+
+        <form action="/action.php">
+
+    </br>
+
+            <input type="text" placeholder="username">
+
+    </br>
+    </br>
+            <input type="password" placeholder="password">
+
+    </br>
+
+    <h5>Select your class</h5>
+        <label for="101">
+            <input type="radio" value="classXI" name="Class">Class classXI
+        </label>
+
+    </br>
+    
+      
+        <label for="102">           
+            <input type="radio" value="classXII" name="Class">Class classXII
+
+        </label>
+
+
+
+    <h5>Select Your Subject</h5>
+        
+            <lablel for="math">
+            <input type="checkbox" value="math" name="subject" id="101"> Math
+            </label>
+    </br>
+            <label for="chemistry">
+            <input type="checkbox" value="chemistry" name="subject" id="102"> Chemistry
+            </label>
+    </br>
+            <label for="physics">
+            <input type="checkbox" value="physics" name="subject" id="103"> Physics
+            </label>
+    </br>
+            <label for="English">
+            <input type="checkbox" value="English" name="subject" id="104"> English
+            </label>
+    </br>
+            <label for="Economics">
+            <input type="checkbox" value="Economics" name="subject" id="105"> Economics
+            </label>
+    </br>
+    </br>
+
+    Select your city
+    
+</br>
+</br>
+
+    <select name="city">
+
+        <option value="Delhi">Delhi</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Nashik">Nashik</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Pune">Pune</option>
+
+    </select>
+
+</br>
+</br>
+
+    <textarea name="feedback" id="101" placeholder="please give your valuable feedback here" rows="5">
+    feedback</textarea>
+
+</br>
+</br>
+
+
+    <input type="submit" value="submit">
+
+        
+
+        </form>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xk07LyyAKYU?si=YJIsnXID6ujwlVc-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<!-- <iframe src="https://google.com">google</iframe>   like this iframe is showing error some websites like google refrain themselves to showcase on other websited, cause like if someone used their serchbar through other website why would they come to google.com? -->
+
+    </br>
+    </br>
+
+<iframe width="560" height="315" src="https://en.wikipedia.org/wiki/Main_Page">wekipedia</iframe>
+
+
+ <video width="560" height="315" src="/happy.mp4" controls loop autoplay>my video</video> <!-- we can use controls to give control, write loop to add loop in our videos, and we can alos add auto play feature but it is not recomended as user experice might suffer from this-->
+
+
+</main>
+
+<footer></footer>
+    
+</body>
+</html>
+
+ 
+
+
+
+
+
+
+
+
